@@ -9,7 +9,6 @@ body {
   position: relative;
   overflow-y: auto;
 }
-/* hidden spacer before sections for proper offset */
 main .scrolled:before {
   height: 45px;
   content: "";
@@ -117,6 +116,9 @@ main .scrolled:before {
 .lead-25 {
   font-size: 1.25rem;
 }
+.lead-9 {
+  font-size: .95rem;
+}
 svg{
   height: 130px;
   width: 130px;
@@ -163,6 +165,9 @@ text {
 .middle-dashed > span:after {
   left: 100%;
   margin-left: 15px;
+}
+.border-gray {
+  border-top: 1px solid #efeeec8a;
 }
 .border-bottom-dashed {
   border-bottom: 4px dashed #358b26 !important;
