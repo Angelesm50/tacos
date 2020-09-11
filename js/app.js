@@ -1,8 +1,8 @@
 (function($){
   $(function(){
     // Parallax efect
-    $('.parallax-window-1').parallax({ imageSrc: 'img/logos/taco-de-birria.png' });
-    $('.parallax-window-2').parallax({ imageSrc: 'img/tacos-de-birria.jpg' });
+    $('.parallax-window-1').parallax({ imageSrc: 'img/banner.png' });
+    $('.parallax-window-2').parallax({ imageSrc: 'img/footer.jpg' });
 
     // Button that appears in the scroll efect
     $(window).scroll(function () {
